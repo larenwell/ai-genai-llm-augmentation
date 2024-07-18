@@ -1,0 +1,12 @@
+#sentence-transformers
+#uvicorn
+#ctransformers
+langchain
+#python-box
+streamlit
+transformers
+datasets
+spacy
+requests
+bs4
+rdflib
