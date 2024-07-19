@@ -1,0 +1,106 @@
+Book List from Project Gutenberg
+
+Classic Literature:
+"Pride and Prejudice" by Jane Austen - ID: 1342
+"Moby Dick" by Herman Melville - ID: 2701
+"War and Peace" by Leo Tolstoy - ID: 2600
+"Great Expectations" by Charles Dickens - ID: 1400
+"Crime and Punishment" by Fyodor Dostoevsky - ID: 2554
+
+Modern Novels:
+"The Great Gatsby" by F. Scott Fitzgerald - ID: 64317
+"Ulysses" by James Joyce - ID: 4300
+"Brave New World" by Aldous Huxley - ID: 21728
+"To the Lighthouse" by Virginia Woolf - ID: 120
+"1984" by George Orwell - ID: 730
+
+Non-Fiction:
+"The Art of War" by Sun Tzu - ID: 132
+"The Prince" by Niccolò Machiavelli - ID: 1232
+"Narrative of the Life of Frederick Douglass, an American Slave" by Frederick Douglass - ID: 23
+"On the Origin of Species" by Charles Darwin - ID: 1228
+"The Republic" by Plato - ID: 1497
+
+Poetry:
+"Leaves of Grass" by Walt Whitman - ID: 1322
+"The Raven" by Edgar Allan Poe - ID: 1065
+"The Divine Comedy" by Dante Alighieri - ID: 8800
+"Paradise Lost" by John Milton - ID: 20
+"The Iliad" by Homer - ID: 6130
+
+Science Fiction:
+"Frankenstein" by Mary Shelley - ID: 84
+"The War of the Worlds" by H.G. Wells - ID: 36
+"The Time Machine" by H.G. Wells - ID: 35
+"The Invisible Man" by H.G. Wells - ID: 5230
+"A Princess of Mars" by Edgar Rice Burroughs - ID: 62
+
+Children's Literature:
+"Alice's Adventures in Wonderland" by Lewis Carroll - ID: 11
+"Peter Pan" by J.M. Barrie - ID: 16
+"The Wonderful Wizard of Oz" by L. Frank Baum - ID: 55
+"Treasure Island" by Robert Louis Stevenson - ID: 120
+"The Secret Garden" by Frances Hodgson Burnett - ID: 113
+
+Historical Fiction:
+"Ivanhoe" by Sir Walter Scott - ID: 82
+"The Three Musketeers" by Alexandre Dumas - ID: 1257
+"Les Misérables" by Victor Hugo - ID: 135
+"A Tale of Two Cities" by Charles Dickens - ID: 98
+"Gone with the Wind" by Margaret Mitchell - ID: 1240
+
+Mystery and Thriller:
+"The Adventures of Sherlock Holmes" by Arthur Conan Doyle - ID: 1661
+"Dracula" by Bram Stoker - ID: 345
+"The Hound of the Baskervilles" by Arthur Conan Doyle - ID: 2852
+"The Moonstone" by Wilkie Collins - ID: 155
+"The Woman in White" by Wilkie Collins - ID: 583
+
+Fantasy:
+"The Hobbit" by J.R.R. Tolkien - ID: 100
+"The Wind in the Willows" by Kenneth Grahame - ID: 289
+"The Jungle Book" by Rudyard Kipling - ID: 236
+"The Last Unicorn" by Peter S. Beagle - ID: 709
+"The Sword in the Stone" by T.H. White - ID: 1341
+
+Biographies and Memoirs:
+"The Diary of a Young Girl" by Anne Frank - ID: 42
+"Confessions" by Augustine of Hippo - ID: 3296
+"The Story of My Life" by Helen Keller - ID: 2397
+"Up From Slavery" by Booker T. Washington - ID: 2376
+"Autobiography of Benjamin Franklin" by Benjamin Franklin - ID: 20203
+
+Philosophy:
+"Meditations" by Marcus Aurelius - ID: 2680
+"Beyond Good and Evil" by Friedrich Nietzsche - ID: 4363
+"The Critique of Pure Reason" by Immanuel Kant - ID: 4280
+"Thus Spoke Zarathustra" by Friedrich Nietzsche - ID: 1998
+"The Essays of Montaigne" by Michel de Montaigne - ID: 3600
+
+Drama and Plays:
+"Hamlet" by William Shakespeare - ID: 1524
+"Macbeth" by William Shakespeare - ID: 1533
+"A Doll's House" by Henrik Ibsen - ID: 2542
+"Pygmalion" by George Bernard Shaw - ID: 3825
+"Oedipus Rex" by Sophocles - ID: 1491
+
+Romance:
+"Wuthering Heights" by Emily Brontë - ID: 768
+"Jane Eyre" by Charlotte Brontë - ID: 1260
+"Sense and Sensibility" by Jane Austen - ID: 161
+"Persuasion" by Jane Austen - ID: 105
+"Emma" by Jane Austen - ID: 158
+
+Adventure:
+"The Call of the Wild" by Jack London - ID: 215
+"White Fang" by Jack London - ID: 910
+"Robinson Crusoe" by Daniel Defoe - ID: 521
+"Around the World in 80 Days" by Jules Verne - ID: 103
+"20,000 Leagues Under the Sea" by Jules Verne - ID: 164
+
+Horror:
+"The Strange Case of Dr Jekyll and Mr Hyde" by Robert Louis Stevenson - ID: 43
+"The Picture of Dorian Gray" by Oscar Wilde - ID: 174
+"Carmilla" by Joseph Sheridan Le Fanu - ID: 10007
+"The Turn of the Screw" by Henry James - ID: 209
+"The Haunting of Hill House" by Shirley Jackson - ID: 5120

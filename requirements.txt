@@ -5,8 +5,13 @@ langchain
 #python-box
 streamlit
 transformers
-datasets
-spacy
 requests
-bs4
-rdflib
+nltk
+spacy
+datasets
+faiss-cpu
+pandas
+sentencepiece
+torch
+accelerate
+transformers[torch]
