@@ -115,8 +115,7 @@ python embeddings_pipeline.py
 
 ### Initialize the Qdrant client
 
-Copy and paste this URL to validate the Qdrant collection
-http://localhost:6333/dashboard
+Click this URL to validate the Qdrant collection: http://localhost:6333/dashboard
 
 ### Retrieval and Response Generation
 
