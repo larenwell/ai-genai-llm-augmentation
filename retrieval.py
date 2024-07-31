@@ -63,6 +63,7 @@ async def llm_response(question: str, context: str) -> str:
         str: The generated response.
     """
     try:
+        # Read the models from Hugging Face Hub
         best_model_finetuned_hf = "larenwell/flan_t5_small_finetuned_kmfodabooksum_75books"
         tokenizer = T5Tokenizer.from_pretrained(best_model_finetuned_hf)
         model = T5ForConditionalGeneration.from_pretrained(best_model_finetuned_hf)
