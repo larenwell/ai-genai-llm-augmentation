@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from datasets import Dataset, load_dataset, concatenate_datasets, load_metric
+from datasets import Dataset, load_dataset, concatenate_datasets
 from transformers import T5Tokenizer, T5ForConditionalGeneration, Trainer, TrainingArguments
 import torch
 
@@ -11,6 +11,15 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 # Define function to load and preprocess the books data
 def load_books_data(data_dir):
+    """
+    Load books data from a directory.
+    
+    Args:
+        data_dir (str): Path to the directory containing book files.
+    
+    Returns:
+        Dataset: Hugging Face Dataset object with the loaded books data.
+    """
     data = []
     for filename in os.listdir(data_dir):
         if filename.endswith('.txt'):
@@ -19,11 +28,17 @@ def load_books_data(data_dir):
                 data.append({"text": text})  # List of lists
     return Dataset.from_pandas(pd.DataFrame(data))
 
-# Load the cleaned books data
-books_data = load_books_data('cleaned_gutenberg')
-
 # Prepare the dataset for T5 model
 def preprocess_function_gutenberg(examples):
+    """
+    Preprocess Gutenberg books data.
+    
+    Args:
+        examples (dict): Dictionary containing book text data.
+    
+    Returns:
+        dict: Dictionary with tokenized inputs and labels for the model.
+    """
     inputs = [text for text in examples["text"]]
     model_inputs = tokenizer(inputs, max_length=512, truncation=True, padding="max_length")
 
@@ -34,14 +49,18 @@ def preprocess_function_gutenberg(examples):
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
 
-# Apply the preprocessing function to the Gutenberg dataset
-books_data = books_data.map(preprocess_function_gutenberg, batched=True, remove_columns=["text"])
-
-# Load the train split of the booksum dataset
-booksum_train = load_dataset('kmfoda/booksum', split='train')
 
 # Preprocess the booksum dataset
 def preprocess_function_booksum(examples):
+    """
+    Preprocess BookSum data.
+    
+    Args:
+        examples (dict): Dictionary containing chapter text and summary data.
+    
+    Returns:
+        dict: Dictionary with tokenized inputs and labels for the model.
+    """
     inputs = [text for text in examples["chapter"]]
     targets = [summary for summary in examples["summary_text"]]
 
@@ -54,6 +73,16 @@ def preprocess_function_booksum(examples):
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
 
+
+# Load the cleaned books data
+books_data = load_books_data('cleaned_gutenberg')
+
+# Apply the preprocessing function to the Gutenberg dataset
+books_data = books_data.map(preprocess_function_gutenberg, batched=True, remove_columns=["text"])
+
+# Load the train split of the booksum dataset
+booksum_train = load_dataset('kmfoda/booksum', split='train')
+
 # Preprocess the booksum train dataset
 booksum_train = booksum_train.map(preprocess_function_booksum, batched=True)
 
@@ -65,17 +94,21 @@ booksum_test = load_dataset('kmfoda/booksum', split='test')
 
 # Preprocess the evaluation dataset
 booksum_test = booksum_test.map(preprocess_function_booksum, batched=True)
-# Inspect the booksum dataset structure
-print(booksum_test)
+
+# Assign the combined training dataset to the train_dataset variable
+train_dataset = combined_train_dataset
+
+# Assign the BookSum test dataset to the eval_dataset variable
+eval_dataset = booksum_test
 
 # Define the training arguments
 training_args = TrainingArguments(
     output_dir="./results",
     eval_strategy="epoch",  # Adjusted to avoid deprecation warning
     learning_rate=2e-5,
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
-    num_train_epochs=3,
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
+    num_train_epochs=5,
     weight_decay=0.01,
     save_total_limit=3,
     save_steps=10,
@@ -86,8 +119,9 @@ training_args = TrainingArguments(
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=combined_train_dataset,
-    eval_dataset=booksum_test,
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,
+    tokenizer=tokenizer
 )
 
 # Fine-tune the model
@@ -101,6 +135,6 @@ results = trainer.evaluate()
 print(results)
 
 # Save the model
-save_directory = "./models/fine_tuned_model_flan_t5_small_13books"
+save_directory = "./models/flan_t5_small_finetuned_kmfodabooksum_75books"
 model.save_pretrained(save_directory)
 tokenizer.save_pretrained(save_directory)
