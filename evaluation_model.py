@@ -97,11 +97,11 @@ def evaluate_summaries(dataset):
         references.extend([example['summary_text'] for example in batch])
     return rouge.compute(predictions=summaries, references=references)
 
-# Dictionary mapping model directories to their respective model types
+# Read the models from Hugging Face Hub. Dictionary mapping model directories to their respective model types
 model_directories = {
-    "./models/flan_t5_small_finetuned_kmfodabooksum_13books": "flan-t5",  # train_batch_size: 2, eval_batch_size: 2, num_epochs: 3
-    "./models/flan_t5_small_finetuned_kmfodabooksum_77books": "flan-t5",  # train_batch_size: 2, eval_batch_size: 2, num_epochs: 3
-    "./models/flan_t5_small_finetuned_kmfodabooksum_75books": "flan-t5"   # train_batch_size: 4, eval_batch_size: 4, num_epochs: 5
+    "larenwell/flan_t5_small_finetuned_kmfodabooksum_13books": "flan-t5",  # train_batch_size: 2, eval_batch_size: 2, num_epochs: 3
+    "larenwell/flan_t5_small_finetuned_kmfodabooksum_77books": "flan-t5",  # train_batch_size: 2, eval_batch_size: 2, num_epochs: 3
+    "larenwell/flan_t5_small_finetuned_kmfodabooksum_75books": "flan-t5"   # train_batch_size: 4, eval_batch_size: 4, num_epochs: 5
 }
 
 # Load the ROUGE evaluation metric
