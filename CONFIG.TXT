@@ -2,7 +2,7 @@
 2. Sign-in
 $docker login
 - username: larenwell
-- password: Jdka1209++90
+- password: thesame
 
 3. Ejecutar estos comandos
 https://hub.docker.com/r/qdrant/qdrant
@@ -18,8 +18,7 @@ $ ollama pull llama3
 #$ ollama run llama3 (Al parecer ya no se usa. Cuando se instala ya está disponible para usar)
 
 
-#.----- ###
-
+#### REQUIREMENTS ####
 
 # Lumenalta: LLM augmentation with Project Gutenberg Catalog
 

@@ -1,0 +1,259 @@
+{
+  "external_books_id": [
+    {
+      "id": 1399,
+      "title": "The Holly-Tree",
+      "author": "Charles Dickens",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 766,
+      "title": "David Copperfield",
+      "author": "Charles Dickens",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 599,
+      "title": "Vanity Fair",
+      "author": "William Makepeace Thackeray",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 2872,
+      "title": "The Variation of Animals and Plants under Domestication — Volume 2",
+      "author": "Charles Darwin",
+      "context": "Non-Fiction"
+    },
+    {
+      "id": 174,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "context": "Modern Novels"
+    },
+    {
+      "id": 2511,
+      "title": "The History of Henry Esmond, Esq., a Colonel in the Service of Her Majesty Queen Anne",
+      "author": "William Makepeace Thackeray",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 3300,
+      "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+      "author": "Adam Smith",
+      "context": "Non-Fiction"
+    },
+    {
+      "id": 1404,
+      "title": "The Federalist Papers",
+      "author": "Alexander Hamilton, John Jay, and James Madison",
+      "context": "Non-Fiction"
+    },
+    {
+      "id": 408,
+      "title": "The Souls of Black Folk",
+      "author": "W. E. B. Du Bois",
+      "context": "Non-Fiction"
+    },
+    {
+      "id": 2232,
+      "title": "The Duchess of Malfi",
+      "author": "John Webster",
+      "context": "Drama and Plays"
+    },
+    {
+      "id": 16328,
+      "title": "Beowulf: An Anglo-Saxon Epic Poem",
+      "author": "J. Lesslie Hall",
+      "context": "Poetry"
+    },
+    {
+      "id": 200,
+      "title": "The Project Gutenberg Encyclopedia, Volume 1 of 28",
+      "author": "Project Gutenberg",
+      "context": "Non-Fiction"
+    },
+    {
+      "id": 159,
+      "title": "The Island of Doctor Moreau",
+      "author": "H. G. Wells",
+      "context": "Science Fiction"
+    },
+    {
+      "id": 18857,
+      "title": "A Journey to the Centre of the Earth",
+      "author": "Jules Verne",
+      "context": "Science Fiction"
+    },
+    {
+      "id": 36,
+      "title": "The War of the Worlds",
+      "author": "H. G. Wells",
+      "context": "Science Fiction"
+    },
+    {
+      "id": 45,
+      "title": "Anne of Green Gables",
+      "author": "L. M. Montgomery",
+      "context": "Children's Literature"
+    },
+    {
+      "id": 74,
+      "title": "The Adventures of Tom Sawyer, Complete",
+      "author": "Mark Twain",
+      "context": "Children's Literature"
+    },
+    {
+      "id": 1448,
+      "title": "Heidi",
+      "author": "Johanna Spyri",
+      "context": "Children's Literature"
+    },
+    {
+      "id": 2148,
+      "title": "The Works of Edgar Allan Poe — Volume 2",
+      "author": "Edgar Allan Poe",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 60,
+      "title": "The Scarlet Pimpernel",
+      "author": "Baroness Emmuska Orczy Orczy",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 1184,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas and Auguste Maquet",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 2097,
+      "title": "The Sign of the Four",
+      "author": "Arthur Conan Doyle",
+      "context": "Mystery and Thriller"
+    },
+    {
+      "id": 558,
+      "title": "The Thirty-Nine Steps",
+      "author": "John Buchan",
+      "context": "Mystery and Thriller"
+    },
+    {
+      "id": 1155,
+      "title": "The Secret Adversary",
+      "author": "Agatha Christie",
+      "context": "Mystery and Thriller"
+    },
+    {
+      "id": 778,
+      "title": "Five Children and It",
+      "author": "E. Nesbit",
+      "context": "Children's Literature"
+    },
+    {
+      "id": 4310,
+      "title": "Will Warburton",
+      "author": "George Gissing",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 1568,
+      "title": "Poems",
+      "author": "William Ernest Henley",
+      "context": "Poetry"
+    },
+    {
+      "id": 11012,
+      "title": "The Autobiography of an Ex-Colored Man",
+      "author": "James Weldon Johnson",
+      "context": "Biographies and Memoirs"
+    },
+    {
+      "id": 16159,
+      "title": "The American Missionary — Volume 43, No. 10, October, 1889",
+      "author": "Various",
+      "context": "Non-Fiction"
+    },
+    {
+      "id": 11224,
+      "title": "Utilitarianism",
+      "author": "John Stuart Mill",
+      "context": "Philosophy"
+    },
+    {
+      "id": 61,
+      "title": "The Communist Manifesto",
+      "author": "Karl Marx and Friedrich Engels",
+      "context": "Non-Fiction"
+    },
+    {
+      "id": 642,
+      "title": "The Altar of the Dead",
+      "author": "Henry James",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 844,
+      "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+      "author": "Oscar Wilde",
+      "context": "Drama and Plays"
+    },
+    {
+      "id": 31,
+      "title": "Plays of Sophocles: Oedipus the King; Oedipus at Colonus; Antigone",
+      "author": "Sophocles",
+      "context": "Drama and Plays"
+    },
+    {
+      "id": 4278,
+      "title": "An Introduction to Yoga",
+      "author": "Annie Besant",
+      "context": "Non-Fiction"
+    },
+    {
+      "id": 4082,
+      "title": "The Barrier",
+      "author": "Rex Beach",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 2166,
+      "title": "King Solomon's Mines",
+      "author": "H. Rider Haggard",
+      "context": "Adventure"
+    },
+    {
+      "id": 1394,
+      "title": "The Holly-Tree",
+      "author": "Charles Dickens",
+      "context": "Classic Literature"
+    },
+    {
+      "id": 214,
+      "title": "In the Days When the World Was Wide, and Other Verses",
+      "author": "Henry Lawson",
+      "context": "Poetry"
+    },
+    {
+      "id": 42,
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "author": "Robert Louis Stevenson",
+      "context": "Horror"
+    },
+    {
+      "id": 28503,
+      "title": "The Wit of Women",
+      "author": "Kate Sanborn",
+      "context": "Biographies and Memoirs"
+    },
+    {
+      "id": 501,
+      "title": "The Story of Doctor Dolittle",
+      "author": "Hugh Lofting",
+      "context": "Children's Literature"
+    }
+  ]
+}
+
+
+  
