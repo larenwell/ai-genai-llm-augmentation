@@ -113,6 +113,11 @@ Run the script to generate embeddings and upload them to Qdrant:
 python embeddings_pipeline.py
 ```
 
+### Initialize the Qdrant client
+
+Copy and paste this URL to validate the Qdrant collection
+http://localhost:6333/dashboard
+
 ### Retrieval and Response Generation
 
 Run the script to retrieve relevant documents from Qdrant and generate responses using the LLM:
