@@ -1,1 +1,35 @@
-Add the models here.
+from transformers import (
+    AutoTokenizer, AutoModelForSeq2SeqLM, LlamaTokenizer,LlamaForCausalLM,
+    PegasusTokenizer, PegasusForConditionalGeneration, BartTokenizer, BartForConditionalGeneration, 
+    T5Tokenizer, T5ForConditionalGeneration, GPTNeoForCausalLM, GPT2Tokenizer,Trainer, TrainingArguments
+)
+
+# Load the pre-trained FLAN-T5 model and tokenizer
+model_name = 'google/flan-t5-small'
+tokenizer = T5Tokenizer.from_pretrained(model_name)
+model = T5ForConditionalGeneration.from_pretrained(model_name)
+
+# Load the pre-trained LLAMA2 model and tokenizer
+model_name = "meta-llama/Llama-2-7b-hf"  # or another Llama 2 variant
+#tokenizer = LlamaTokenizer.from_pretrained(model_name, use_auth_token=token)
+#model = LlamaForCausalLM.from_pretrained(model_name, use_auth_token=token)
+
+# Load the pre-trained LLAMA3 model and tokenizer
+#model_name = "meta-llama/Meta-Llama-3-8B"
+#tokenizer = LlamaTokenizer.from_pretrained(model_name, use_auth_token=token)
+#model = LlamaForCausalLM.from_pretrained(model_name, use_auth_token=token)
+
+# Load the pre-trained BART model and tokenizer
+model_name = 'facebook/bart-large'
+tokenizer = BartTokenizer.from_pretrained(model_name)
+model = BartForConditionalGeneration.from_pretrained(model_name)
+
+# Load the pre-trained GPT-Neo model and tokenizer
+model_name = 'EleutherAI/gpt-neo-1.3B'
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPTNeoForCausalLM.from_pretrained(model_name)
+
+# Load the pre-trained Pegasus model and tokenizer
+model_name = 'google/pegasus-large'
+tokenizer = PegasusTokenizer.from_pretrained(model_name)
+model = PegasusForConditionalGeneration.from_pretrained(model_name)

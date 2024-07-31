@@ -1,8 +1,5 @@
-#sentence-transformers
-#uvicorn
-#ctransformers
+sentence-transformers
 langchain
-#python-box
 streamlit
 transformers
 requests
@@ -15,3 +12,12 @@ sentencepiece
 torch
 accelerate
 transformers[torch]
+qdrant-client
+gradio
+optuna
+rouge-score
+evaluate
+scikit-learn
+langchain-qdrant
+huggingface_hub
+python-dotenv
